@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.forecast-box {
+    margin-left: 50px;
+    padding: 18px;
+    max-width: 300px;
+    background-color: rgb(235, 233, 233);
+    border: 2px solid rgb(105, 177, 253);
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 2px rgba(90, 138, 188, 0.2);;
+    
+}
+ 
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#cities {
+    font-size: 18px;
+}
+
+.out {
+    padding-bottom: 15px;
+}
+
+.icon-weather {
+    background-color: rgba(145, 196, 251,0.8);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.temperature {
+    font-size: 32px;
+}
+
+.precipitation,
+.wind {
+    font-style: italic;
+    font-size: 14px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+}
