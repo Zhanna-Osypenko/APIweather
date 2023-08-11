@@ -17,6 +17,12 @@ for (const key in cities) {
     option.textContent = cities[key];
     selectElem.append(option);
 }
+// for (const key of Object.keys(cities)) {
+//     const option = document.createElement('option');
+//     option.value = key;
+//     option.textContent = cities[key];
+//     selectElem.append(option);
+// }
 
 label.append(selectElem);
 
